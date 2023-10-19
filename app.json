@@ -1,0 +1,17 @@
+{
+    "name": "anbuanime",
+    "description": "A free anime streaming restful API serving anime from GogoAnime.",
+    "keywords": ["express", "gogoanime", "scrapper", "api", "streaming"],
+    "website": "https://github.com/anbuinfosec/anbuanime#readme",
+    "repository": "https://github.com/anbuinfosec/anbuanime",
+    "logo": "https://raw.githubusercontent.com/anbuinfosec/anbuanime/main/images/image1.png",
+
+    "env": {
+        "PORT": {
+            "description": "Set PORT for the express application to run on.",
+            "value": "3000"
+        }
+    },
+    "image": "heroku/nodejs",
+    "stack": "heroku-20"
+}

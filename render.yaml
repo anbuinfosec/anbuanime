@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: anbuanime
+    env: docker
+    repo: https://github.com/anbuinfosec/anbuanime.git
+    plan: free
+    branch: main
+    envVars:
+      - key: PORT
+        value: 3000
