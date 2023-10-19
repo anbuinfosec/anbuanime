@@ -3,10 +3,10 @@
     <img src="images/image1.png" alt="Logo" width="85" height="85">
   </a>
 
-  <h3 align="center">AnbuAnime API</h3>
+  <h3 align="center">Anbuanime API</h3>
 
   <p align="center">
-    <samp>A free anime streaming restful API serving anime from <a href="https://gogoanime3.net">AnbuAnime</a>
+    <samp>A free anime streaming restful API serving anime from <a href="https://gogoanime3.net">GogoAnime</a>
 
 <h1> Table of Contents </h1>
 
