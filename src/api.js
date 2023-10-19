@@ -34,7 +34,39 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.status(200).json('Welcome to GogoAnime API!');
+    const htmlResponse = `
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Anbuanime API</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f2f2f2;
+                    text-align: center;
+                }
+                h1 {
+                    color: #007BFF;
+                }
+                .contact-button {
+                    background-color: #007BFF;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    margin-top: 20px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Welcome to Anbuanime API!</h1>
+            <a class="contact-button" href="https://facebook.com/anbuinfosec3">Contact Us</a>
+        </body>
+        </html>
+    `;
+    
+    res.status(200).send(htmlResponse);
 });
 
 app.get('/search', async(req, res) => {
